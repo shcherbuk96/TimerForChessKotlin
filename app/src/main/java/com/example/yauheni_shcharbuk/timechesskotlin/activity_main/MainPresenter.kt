@@ -7,6 +7,7 @@ import com.arellomobile.mvp.InjectViewState
 import com.arellomobile.mvp.MvpPresenter
 import com.example.yauheni_shcharbuk.timechesskotlin.App
 import com.example.yauheni_shcharbuk.timechesskotlin.Constants
+import com.example.yauheni_shcharbuk.timechesskotlin.NumberPickerPreference
 import com.example.yauheni_shcharbuk.timechesskotlin.R
 import javax.inject.Inject
 

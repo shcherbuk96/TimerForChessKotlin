@@ -48,8 +48,6 @@ class NumberPickerPreference(ctxt: Context, attrs: AttributeSet) : DialogPrefere
         picker?.maxValue = maxValue
         picker?.wrapSelectorWheel = wrapSelectorWheel
         picker?.value = getValue()
-//        picker?.wrapSelectorWheel=wrapSelectorWheel
-
     }
 
     override fun onDialogClosed(positiveResult: Boolean) {

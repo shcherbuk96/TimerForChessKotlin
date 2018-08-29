@@ -6,5 +6,15 @@ import com.arellomobile.mvp.viewstate.strategy.StateStrategyType
 
 @StateStrategyType(AddToEndSingleStrategy::class)
 interface MainView : MvpView {
-    fun time(time_first: Int, time_second: Int)
+    fun setSettings(time: String, vibrate: Boolean)
+
+    fun setTime1(time: String)
+
+    fun setTime2(time: String)
+
+    fun setVibrate()
+
+    fun setFinish1(time: String)
+
+    fun setFinish2(time: String)
 }

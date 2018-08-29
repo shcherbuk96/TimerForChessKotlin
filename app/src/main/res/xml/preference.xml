@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_vibration"
+            android:title="@string/settings_vibration" />
+
+        <com.example.yauheni_shcharbuk.timechesskotlin.NumberPickerPreference
+            android:defaultValue="10"
+            android:key="@string/key_time"
+            android:title="@string/settings_time" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/key_add_time"
+            android:title="@string/settings_add_time" />
+
+        <com.example.yauheni_shcharbuk.timechesskotlin.NumberPickerPreference
+            android:defaultValue="10"
+            android:enabled="false"
+            android:key="@string/key_add_time_change"
+            android:title="@string/settings_add_time_change" />
+    </PreferenceCategory>
+</PreferenceScreen>

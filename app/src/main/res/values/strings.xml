@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TimeChessKotlin</string>
+
+    <string name="settings">Настройки</string>
+
+    <string name="settings_time">Изменить время</string>
+    <string name="key_time">key_time</string>
+
+    <string name="settings_vibration">Вибрация</string>
+    <string name="key_vibration">key_vibration</string>
+
+    <string name="settings_add_time">Режим с добавлением времени</string>
+    <string name="key_add_time">key_add_time</string>
+
+    <string name="settings_add_time_change">Время в секундах</string>
+    <string name="key_add_time_change">key_add_time_change</string>
+</resources>
